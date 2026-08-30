@@ -45,6 +45,9 @@ Open `Lab1_PartB.ipynb` and select the Python kernel that matches the version wh
 **Expected result:**
 - The end-effector positions from both models should be nearly identical.
 
+## Submit your answer
+Copy cell output of each part and paste them in [answer sheet file](ANSWER.md)
+
 ## Conditions
 
 - Use **only** the functions and syntax specified in the lab instructions.
