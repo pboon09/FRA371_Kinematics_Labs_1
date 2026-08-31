@@ -46,10 +46,10 @@ Open `Lab1_PartB.ipynb` and select the Python kernel that matches the version wh
 - The end-effector positions from both models should be nearly identical.
 
 ## Submit your answer
-Copy cell output of each part and paste them in [answer sheet file](ANSWER.md)
+Copy cell output of each part, rename the file to your group number, and paste them in [answer sheet file](ANSWER_GNN.md)
 
 ## Conditions
 
 - Use **only** the functions and syntax specified in the lab instructions.
-- Add or modify code **only** in lines marked with `# edit here` or `# YOUR TURN`.
+- Add or modify code **only** in lines marked with `# edit here`
 - Turn off **Wi-Fi** during the lab.
