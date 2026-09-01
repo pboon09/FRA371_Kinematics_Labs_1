@@ -11,29 +11,20 @@ Complete [Lab 1 Part B](Lab1_PartB.ipynb) before the time ends!
 
 Open `Lab1_PartB.ipynb` and select the Python kernel that matches the version where the required libraries are installed.
 
-### Part 1: Check Hand Calculation with the Library
-
-- Enter the assigned point **M** in the section marked with `# edit here`.
-- Enter the joint values for each joint (radians/meters) in the sections marked with `# edit here`.
-
-**Expected result:**
-- The tip position should be close to point **M**.
-- The error should be close to **0**.
-
-### Part 2: Build Your Model and Compute Forward Kinematics (FK)
+### Part 1: Build Your Model
 
 - Fill in the **modified Denavit–Hartenberg (mDH)** parameter table.
 
 **Expected result:**
 - The completed mDH table should match the values obtained in **Part A3**.
 
-- Modify `q_A` according to the robot's joint types.
-- In the section marked with `# edit here to compute T, tip, and dist for q_A and q_B`, write code to compute:
-  - the transformation matrix (`T`),
-  - the end-effector position (`tip`), and
-  - the distance (`dist`) from the end effector to point **M**,
+### Part 2: Compute Forward Kinematics (FK)
 
-  as completed in **Part A5**.
+- Modify `q_A` and `q_B` according to the robot's joint types.
+- In the section marked with `# edit here to compute T and tip for q_A and q_B`, write code to compute:
+  - the transformation matrix (`T`),
+  - the end-effector position
+  - the end-effector orientation
 
 **Expected result:**
 - The program output should match your hand calculations.
@@ -43,13 +34,13 @@ Open `Lab1_PartB.ipynb` and select the Python kernel that matches the version wh
 - Run the notebook and compare the robot generated from the **URDF** model with the one generated from the **mDH** parameters.
 
 **Expected result:**
-- The end-effector positions from both models should be nearly identical.
+- The end-effector positions and orientations from both models should be nearly identical.
 
 ## Submit your answer
 Copy cell output of each part, rename the file to your group number, and paste them in [answer sheet file](ANSWER_GNN.md)
 
 ## Conditions
 
-- Use **only** the functions and syntax specified in the lab instructions.
+- There will be **reference of the functions and syntax** that can help you write down in the file.
 - Add or modify code **only** in lines marked with `# edit here`
 - Turn off **Wi-Fi** during the lab.
