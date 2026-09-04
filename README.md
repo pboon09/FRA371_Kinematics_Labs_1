@@ -5,11 +5,29 @@
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
 
-Complete [Lab 1 Part B](Lab1_PartB.ipynb) before the time ends!
+## Robot Setup
+
+Add your own robot to this project and confirm it loads.
+
+### 1. Move your robot into `my_robot/`
+
+Your robot comes from a **URDF exporter** (your CAD tool): one `.urdf` file and a set
+of `.stl` meshes.
+
+1. Put your mesh files in `my_robot/meshes/`.
+2. Save your URDF as `my_robot/robot.urdf`.
+
+### 2. Re-path the meshes
+
+In `my_robot/robot.urdf`, every mesh path **must** look like this:
+
+```xml
+<mesh filename="package://my_robot/meshes/YOUR_FILE.stl"/>
+```
 
 ## Instructions
 
-Open `Lab1_PartB.ipynb` and select the Python kernel that matches the version where the required libraries are installed.
+Open [Lab 1 Part B](Lab1_PartB.ipynb) and select the Python kernel that matches the version where the required libraries are installed.
 
 ### Part 1: Build Your Model
 
